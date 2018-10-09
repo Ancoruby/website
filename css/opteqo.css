@@ -320,14 +320,28 @@
   /* CONTACT */
 
   section#contact {
-    background-color: #212529;
+    background-color: #fbbc05;
     background-image: url("../img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
   }
   
-  section#contact .section-heading {
+  /*section#contact .section-heading {
     color: #f2f2f2;
+  }*/
+
+  section#contact .section-heading i {
+    color: #ea4335;
+  }
+
+  section#contact h5 {
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 300;
+  }
+
+  section#contact a {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
   }
   
   section#contact .form-group {
